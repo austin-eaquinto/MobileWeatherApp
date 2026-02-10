@@ -1,9 +1,7 @@
-package com.example.weatherapp.ui.theme
+package data.remote
 
-import com.example.weatherapp.WeatherApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
 
 object RetrofitInstance {
     private const val BASE_URL = "https://api.openweathermap.org"

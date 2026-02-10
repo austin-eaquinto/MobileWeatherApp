@@ -1,4 +1,4 @@
-package com.example.weatherapp
+package data.remote
 // Tells the translator to look for a JSON field named "temp" and put its value
 // into the variable "temperature"
 import com.google.gson.annotations.SerializedName
